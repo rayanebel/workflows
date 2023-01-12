@@ -1,0 +1,8 @@
+---
+name: Show all Flux objects that are not ready
+command: "flux get all -A --status-selector ready=false"
+tags:
+  - flux
+description: Lists the events for a single Kubernetes pod by using the field-selector flag.
+author: rbellazaar
+shells: []
